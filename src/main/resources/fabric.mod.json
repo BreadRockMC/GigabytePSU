@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "gigabyte",
+  "version": "${version}",
+  "name": "Gigabyte PSU",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.breadrockmc.gigabyte.gigabytepsu.FabricModLoader"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
